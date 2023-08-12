@@ -395,8 +395,8 @@ def advance_dialog():
             pyxel.play(0,3)
 
 def update():
-    if pyxel.btnp(pyxel.KEY_Q):
-        quit()
+    #if pyxel.btnp(pyxel.KEY_Q):
+    #    quit()
     if game.finished:
         game.man_frame=(game.man_frame+0.05)%2
         cat.anim_frame=(cat.anim_frame+0.05)%2

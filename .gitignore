@@ -1,5 +1,6 @@
 build/
 game.pyxapp
 game.html
-game.exe
 upload.sh
+*.exe
+*.zip
